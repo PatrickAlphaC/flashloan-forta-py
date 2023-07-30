@@ -1,9 +1,9 @@
-# Check flash loans on an intersting protocol
+#### Check flash loans on an interesting protocol
 
-## Description
+#### Description
 This bot listens for flashloans that interact with a list of protocols. 
 
-## Supported Chains
+##### Supported Chains
 
 - Ethereum
 - Any other EVM compatible chain
