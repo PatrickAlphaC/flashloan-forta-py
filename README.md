@@ -1,53 +1,38 @@
-#### Check flash loans on an interesting protocol
+##### **flashloan-forta-py**
 
-#### Description
-This bot listens for flashloans that interact with a list of protocols. 
+**📝Description:**
+This repository contains a bot that monitors flash loans interacting with a specified list of protocols on supported chains, including Ethereum and other EVM compatible chains.
 
-##### Supported Chains
+**Supported Chains:**
+- --> Ethereum
+- --> Any other EVM compatible chain
 
-- Ethereum
-- Any other EVM compatible chain
+**⚠️ Alerts:**
+The bot can fire alerts of different types. One specific alert is FORTA-5, which occurs when a transaction involves an Aave3 flash loan.
 
-## Alerts
+**Test Data:**
+The agent's behavior can be verified using the following transaction:
+`0x4c74cfaf9b38c1f4ab4e06819bc60d44171db664ce111190e79cb511e9dfa0d0`
+It can also be tested using the command:
+`npm run tx 0x4c74cfaf9b38c1f4ab4e06819bc60d44171db664ce111190e79cb511e9dfa0d0`
 
-Describe each of the type of alerts fired by this agent
-
-- FORTA-5
-  - Fired when a transaction has an Aave3 flash loan in it
-
-## Test Data
-
-The agent behaviour can be verified with the following transactions:
-
-- 0x4c74cfaf9b38c1f4ab4e06819bc60d44171db664ce111190e79cb511e9dfa0d0
-
-And can be tested with: 
-
-```bash
-npm run tx 0x4c74cfaf9b38c1f4ab4e06819bc60d44171db664ce111190e79cb511e9dfa0d0
-```
-
-# Developers
-
-## Getting started
-
-### Clone the repo and install dependencies
-
+### Getting Started as a Developer
+**Developers:**
+To get started with this project, follow these steps:
+1. Clone the repository and install the required dependencies:
 ```
 git clone https://github.com/PatrickAlphaC/flashloan-forta-py
 cd flashloan-forta-py
 pip3 install -r requirements_dev.txt
 npm install
 ```
-
-### Run tests
-
+2. Run tests to ensure everything is set up correctly:
 ```
 pytest
 ```
-
-### Run the agent
-
+3. Start the agent:
 ```
 npm run start
 ```
+
+Feel free to explore and contribute to this project by making pull requests, using actions, managing projects, updating the wiki, ensuring security, and checking insights in the settings.
