@@ -51,3 +51,16 @@ pytest
 ```
 npm run start
 ```
+
+## Deploy the bot
+
+You'll need MATIC token in your forta keystore file. You'll set one up when you install and run the forta cli the first time. 
+
+```
+npm run publish
+```
+
+And you'll get an output like: 
+```
+successfully added agent id 0x31e199d346a1d2bdb98b6f45a4b1c9ded84ff31f9e1e16773f4303d9b5f2f9a2 with manifest QmXS9S78EYA2ez9pYr4rTEP9K3fQzyPYirLjYN5zfqFpZL
+```
